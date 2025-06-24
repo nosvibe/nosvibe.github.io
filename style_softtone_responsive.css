@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -81,8 +80,9 @@ a {
   color: white;
   padding: 12px 24px;
   border-radius: 4px;
+  cursor: pointer;
 }
-
+/* Address */
 .hero-address {
   display: flex;
   gap: 60px;
@@ -162,64 +162,11 @@ a {
   border-radius: 8px;
   margin-bottom: 10px;
 }
-
 /* Responsive cho điện thoại */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .hero-v2 {
-    flex-direction: column;
-    padding: 30px 20px;
-  }
-
-  .hero-text {
-    max-width: 100%;
-  }
-
-  .hero-address {
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 30px;
-  }
-
-  .collections {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .feature-icons {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .box,
-  .image-box {
-    width: 100%;
-    text-align: center;
-  }
-
-  .hero-text h1 {
-    font-size: 28px;
-  }
-
-  .btn-primary {
-    display: inline-block;
-    padding: 14px 28px;
-    margin-top: 15px;
-  }
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center; /* Đổi từ flex-start thành center */
+    align-items: center; /* sửa lại từ flex-start */
     gap: 10px;
   }
 
@@ -246,15 +193,15 @@ a {
 
   .btn-primary {
     display: block;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 0 auto; /* căn giữa nút Khám phá */
   }
 
   .buy-now {
     display: block;
-    margin: 10px auto;
+    margin: 10px auto; /* căn giữa nút Portfolio */
   }
 
-  ...
-}
+  .collections {
+    flex-direction: column;
+    paddi
 
-}
