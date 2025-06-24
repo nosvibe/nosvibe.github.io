@@ -155,6 +155,9 @@ a {
   flex: 1;
   padding: 30px;
   border-radius: 8px;
+#services .box {
+  min-height: 280px;
+}
 }
 
 .beige {
