@@ -82,9 +82,11 @@ a {
 
 .hero-text .description {
   font-size: 16px;
-  margin: 20px 0;
+  margin-top: 4px;
+  margin-bottom: 36px;
+  text-align: center;
+  line-height: 1.4;
 }
-
 .btn-primary {
   background: #222222;
   color: white;
@@ -92,6 +94,37 @@ a {
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* Container nút */
+.cta-button-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start; /* Hoặc center nếu bạn muốn căn giữa */
+}
+
+/* Nút trong khối tối (trắng viền, nền trong suốt) */
+.btn-outline-white {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: transparent;
+  display: inline-block;
+}
+
+/* Nút trong khối sáng (đen viền, nền trắng) */
+.btn-outline-dark {
+  color: #222222;
+  border: 1px solid #222222;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+
 /* Address */
 .hero-address {
   display: flex;
@@ -119,10 +152,13 @@ a {
 }
 
 .feature-desc {
-  max-width: 600px;
+  max-width: 650px;
   margin: auto;
   margin-bottom: 30px;
   font-size: 16px;
+text-align: center;
+text-justify: inter-word;
+line-height: 1.6;
 }
 
 .feature-icons {
@@ -155,6 +191,10 @@ a {
   flex: 1;
   padding: 30px;
   border-radius: 8px;
+
+}
+#services .box {
+min-height: 160px; /* hoặc tuỳ ý bạn */
 }
 
 .beige {
