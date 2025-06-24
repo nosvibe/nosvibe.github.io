@@ -3,6 +3,10 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #fcfcfc;
   color: #333333;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 }
 html {
   scroll-behavior: smooth;
