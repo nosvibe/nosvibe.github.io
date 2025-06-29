@@ -223,6 +223,23 @@ min-height: 160px; /* hoặc tuỳ ý bạn */
   border-radius: 8px;
   margin-bottom: 10px;
 }
+.zalo-button {
+  display: inline-block;
+  background-color: #0084ff;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.zalo-button:hover {
+  background-color: #006edc;
+}
+
 /* Responsive cho điện thoại */
 @media (max-width: 768px) {
   .navbar {
