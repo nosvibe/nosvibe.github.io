@@ -225,8 +225,8 @@ min-height: 160px; /* hoặc tuỳ ý bạn */
 }
 .zalo-button {
   display: inline-block;
-  background-color: #0084ff;
-  color: white;
+  background-color: #ffffff;
+  color: #222222;
   padding: 8px 14px;
   border-radius: 6px;
   font-weight: bold;
@@ -237,7 +237,7 @@ min-height: 160px; /* hoặc tuỳ ý bạn */
 }
 
 .zalo-button:hover {
-  background-color: #006edc;
+  background-color: #ffffff;
 }
 
 /* Responsive cho điện thoại */
