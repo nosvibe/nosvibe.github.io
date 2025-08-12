@@ -74,10 +74,11 @@ a {
   color: #666666;
 }
 
-.hero-image {
-  max-width: 200px; /* chỉnh kích thước */
-  display: block;
-  margin: 20px auto 0; /* căn giữa */
+.hero-v2 {
+  background-image: url('images/background.JPG');
+  background-repeat: no-repeat;
+  background-position: center bottom; /* vị trí ảnh */
+  background-size: 200px auto; /* kích thước ảnh */
 }
 
 .hero-text h1 {
