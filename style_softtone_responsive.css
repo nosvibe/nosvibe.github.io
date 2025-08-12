@@ -61,19 +61,18 @@ a {
   justify-content: space-between;
   padding: 60px 40px;
   flex-wrap: wrap;
+  background-image: url('background.JPG');
+  background-repeat: no-repeat;
+  background-position: center; /* vị trí ảnh */
+  background-size: cover; /* kích thước ảnh */
+position: relative;
 }
 
 .hero-v2::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0,0,0,0.6); /* 0.4 = độ mờ 40% */
-}
-
-.hero-text {
-  position: relative; /* đảm bảo chữ nằm trên overlay */
-  color: white;
-  z-index: 1;
+  background-color: rgba(0,0,0,0.2); /* 0.4 = độ mờ 40% */
 }
 
 .hero-text .tagline {
@@ -82,13 +81,6 @@ a {
   color: #666666;
 }
 
-.hero-v2 {
-  background-image: url('background.JPG');
-  background-repeat: no-repeat;
-  background-position: center; /* vị trí ảnh */
-  background-size: cover; /* kích thước ảnh */
-position: relative;
-}
 
 .hero-text h1 {
   font-size: 36px;
