@@ -74,6 +74,12 @@ a {
   color: #666666;
 }
 
+.hero-image {
+  max-width: 200px; /* chỉnh kích thước */
+  display: block;
+  margin: 20px auto 0; /* căn giữa */
+}
+
 .hero-text h1 {
   font-size: 36px;
   margin: 10px 0;
