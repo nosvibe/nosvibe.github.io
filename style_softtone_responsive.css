@@ -78,7 +78,8 @@ a {
   background-image: url('background.JPG');
   background-repeat: no-repeat;
   background-position: center bottom; /* vị trí ảnh */
-  background-size: 200px auto; /* kích thước ảnh */
+  background-size: cover; /* kích thước ảnh */
+background-color: transparent;
 }
 
 .hero-text h1 {
