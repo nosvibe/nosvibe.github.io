@@ -60,12 +60,20 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 60px 40px;
-  background-color: linear-gradient(135deg, #f5f5f5, #e0e0e0);
   flex-wrap: wrap;
 }
 
+.hero-v2::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.6); /* 0.4 = độ mờ 40% */
+}
+
 .hero-text {
-  max-width: 600px;
+  position: relative; /* đảm bảo chữ nằm trên overlay */
+  color: white;
+  z-index: 1;
 }
 
 .hero-text .tagline {
@@ -77,8 +85,9 @@ a {
 .hero-v2 {
   background-image: url('background.JPG');
   background-repeat: no-repeat;
-  background-position: center bottom; /* vị trí ảnh */
+  background-position: center; /* vị trí ảnh */
   background-size: cover; /* kích thước ảnh */
+position: relative;
 }
 
 .hero-text h1 {
