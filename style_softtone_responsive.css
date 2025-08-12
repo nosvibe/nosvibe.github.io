@@ -75,7 +75,7 @@ a {
 }
 
 .hero-v2 {
-  background-image: url('images/background.JPG');
+  background-image: url('background.JPG');
   background-repeat: no-repeat;
   background-position: center bottom; /* vị trí ảnh */
   background-size: 200px auto; /* kích thước ảnh */
