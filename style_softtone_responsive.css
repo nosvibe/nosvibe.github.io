@@ -282,11 +282,15 @@ line-height: 1.6;
     flex-direction: column;
     gap: 20px;
     margin-top: 30px;
-align-items: center;
+    align-items: center;
+    margin: 0 auto; /* 👈 giúp khối căn giữa */
+    width: fit-content; /* giữ độ co giãn tự nhiên */
   }
-.hero-address > div {
+
+ .hero-address > div {
     text-align: center;
   }
+
   .btn-primary {
     display: block;
     margin: 20px auto 0 auto; /* căn giữa nút Khám phá */
