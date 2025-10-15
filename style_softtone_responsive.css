@@ -136,15 +136,15 @@ position: relative;
 /* Address */
 .hero-address {
   display: inline-flex;
-  gap: 60px;
+  gap: 20px;
   align-items: center;
   flex-wrap: wrap;
-  background: rgba(255, 255, 255, 0.2); /* trắng mờ 20% */
-  backdrop-filter: blur(1px); /* làm mờ nền phía sau */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* viền nhẹ */
-  border-radius: 12px; /* bo góc mềm mại */
-  padding: 20px 30px; /* thêm khoảng đệm */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* đổ bóng nhẹ */
+  background: rgba(255, 255, 255, 0.15); /* trắng mờ 15% */
+  backdrop-filter: blur(4px); /* làm mờ nền phía sau */
+  border: 1px solid rgba(255, 255, 255, 0.25); /* viền nhẹ */
+  border-radius: 10px; /* bo góc mềm mại */
+  padding: 12px 20px; /* thêm khoảng đệm */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* đổ bóng nhẹ */
   width: fit-content; /* 👈 co khung theo nội dung */
 }
 
