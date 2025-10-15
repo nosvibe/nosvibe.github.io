@@ -89,6 +89,7 @@ position: relative;
 }
 
 .hero-text .description {
+  text-align: left;
   font-size: 16px;
   margin-top: 4px;
   margin-bottom: 36px;
