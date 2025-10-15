@@ -65,7 +65,7 @@ a {
   background-repeat: no-repeat;
   background-position: center; /* vị trí ảnh */
   background-size: cover; /* kích thước ảnh */
-position: relative;
+  position: relative;
 }
 
 .hero-v2::before {
@@ -279,20 +279,27 @@ line-height: 1.6;
     text-align: center;
   }
 
-  .hero-address {
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 30px;
-    align-items: center;
-    margin: 0 auto; /* 👈 giúp khối căn giữa */
-    width: fit-content; /* giữ độ co giãn tự nhiên */
-  background: rgba(255, 255, 255, 0.15); /* trắng mờ 15% */
-  backdrop-filter: blur(4px); /* làm mờ nền phía sau */
-  border: 1px solid rgba(255, 255, 255, 0.25); /* viền nhẹ */
-  border-radius: 10px; /* bo góc mềm mại */
-  padding: 12px 20px; /* thêm khoảng đệm */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* đổ bóng nhẹ */
-  width: fit-content; /* 👈 co khung theo nội dung */
+.hero-text .description {
+    text-align: center !important;
+    margin-top: 6px;    /* chỉnh nhẹ khoảng cách nếu cần */
+    margin-bottom: 16px;
+  }
+
+ .hero-address {
+    position: relative;   /* để z-index hoạt động */
+    z-index: 3;
+
+    /* điều chỉnh lớp kính (màu + độ mờ) để chữ rõ hơn */
+    /* Nếu nền ảnh tối -> dùng overlay trắng mỏng; nếu nền sáng -> dùng overlay đen mỏng */
+    background: rgba(255, 255, 255, 0.30); /* trắng mờ 30%: làm chữ tối rõ trên nền tối */
+    /* Nếu bạn muốn overlay tối (khi nền quá sáng), thay bằng: background: rgba(0,0,0,0.35); */
+    backdrop-filter: blur(8px); /* tăng blur để làm mờ nền phía sau */
+    -webkit-backdrop-filter: blur(8px); /* Safari */
+    border: 1px solid rgba(255,255,255,0.45); /* viền rõ hơn */
+    padding: 14px 18px;   /* co gọn padding trên mobile */
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;       /* căn giữa khung trên mobile */
   }
 
  .hero-address > div {
