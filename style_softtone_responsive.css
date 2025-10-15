@@ -135,10 +135,17 @@ position: relative;
 
 /* Address */
 .hero-address {
-  display: flex;
+  display: inline-flex;
   gap: 60px;
   align-items: center;
   flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.2); /* trắng mờ 20% */
+  backdrop-filter: blur(1px); /* làm mờ nền phía sau */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* viền nhẹ */
+  border-radius: 12px; /* bo góc mềm mại */
+  padding: 20px 30px; /* thêm khoảng đệm */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* đổ bóng nhẹ */
+  width: fit-content; /* 👈 co khung theo nội dung */
 }
 
 .hero-address h4 {
@@ -202,7 +209,7 @@ line-height: 1.6;
 
 }
 #services .box {
-min-height: 160px; /* hoặc tuỳ ý bạn */
+  min-height: 160px; /* hoặc tuỳ ý bạn */
 }
 
 .beige {
