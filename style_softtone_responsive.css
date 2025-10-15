@@ -137,8 +137,7 @@ a {
 /* Address */
 .hero-address {
   display: inline-flex;
-  gap: 20px;
-  align-items: center;
+  align-items: bottom;
   flex-wrap: wrap;
   background: rgba(255, 255, 255, 0.15); /* trắng mờ 15% */
   backdrop-filter: blur(4px); /* làm mờ nền phía sau */
@@ -291,10 +290,10 @@ line-height: 1.6;
     z-index: 3;
     /* điều chỉnh lớp kính (màu + độ mờ) để chữ rõ hơn */
     /* Nếu nền ảnh tối -> dùng overlay trắng mỏng; nếu nền sáng -> dùng overlay đen mỏng */
-    background: rgba(255, 255, 255, 0.15); /* trắng mờ 15%: làm chữ tối rõ trên nền tối */
+    background: rgba(255, 255, 255, 0.20); /* trắng mờ 20%: làm chữ tối rõ trên nền tối */
     /* Nếu bạn muốn overlay tối (khi nền quá sáng), thay bằng: background: rgba(0,0,0,0.35); */
-    backdrop-filter: blur(3px); /* tăng blur để làm mờ nền phía sau */
-    -webkit-backdrop-filter: blur(3px); /* Safari */
+    backdrop-filter: blur(4px); /* tăng blur để làm mờ nền phía sau */
+    -webkit-backdrop-filter: blur(4px); /* Safari */
     border: 1px solid rgba(255,255,255,0.25);
     padding: 1px 6px;   /* co gọn padding trên mobile */
     border-radius: 1px;
