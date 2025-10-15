@@ -61,7 +61,7 @@ a {
   justify-content: space-between;
   padding: 60px 40px;
   flex-wrap: wrap;
-  background-image: url('background.jpg');
+  background-image: url('background.JPG');
   background-repeat: no-repeat;
   background-position: center; /* vị trí ảnh */
   background-size: cover; /* kích thước ảnh */
