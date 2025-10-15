@@ -286,6 +286,13 @@ line-height: 1.6;
     align-items: center;
     margin: 0 auto; /* 👈 giúp khối căn giữa */
     width: fit-content; /* giữ độ co giãn tự nhiên */
+  background: rgba(255, 255, 255, 0.15); /* trắng mờ 15% */
+  backdrop-filter: blur(4px); /* làm mờ nền phía sau */
+  border: 1px solid rgba(255, 255, 255, 0.25); /* viền nhẹ */
+  border-radius: 10px; /* bo góc mềm mại */
+  padding: 12px 20px; /* thêm khoảng đệm */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* đổ bóng nhẹ */
+  width: fit-content; /* 👈 co khung theo nội dung */
   }
 
  .hero-address > div {
