@@ -137,7 +137,7 @@ a {
 /* Address */
 .hero-address {
   display: inline-flex;
-  align-items: bottom;
+  align-items: right;
   flex-wrap: wrap;
   background: rgba(255, 255, 255, 0.15); /* trắng mờ 15% */
   backdrop-filter: blur(4px); /* làm mờ nền phía sau */
@@ -147,6 +147,7 @@ a {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* đổ bóng nhẹ */
   width: fit-content; /* 👈 co khung theo nội dung */
   height: fit-content;
+  margin: 60px 1px;
 }
 
 .hero-address h4 {
@@ -292,8 +293,8 @@ line-height: 1.6;
     /* Nếu nền ảnh tối -> dùng overlay trắng mỏng; nếu nền sáng -> dùng overlay đen mỏng */
     background: rgba(255, 255, 255, 0.20); /* trắng mờ 20%: làm chữ tối rõ trên nền tối */
     /* Nếu bạn muốn overlay tối (khi nền quá sáng), thay bằng: background: rgba(0,0,0,0.35); */
-    backdrop-filter: blur(4px); /* tăng blur để làm mờ nền phía sau */
-    -webkit-backdrop-filter: blur(4px); /* Safari */
+    backdrop-filter: blur(6px); /* tăng blur để làm mờ nền phía sau */
+    -webkit-backdrop-filter: blur(6px); /* Safari */
     border: 1px solid rgba(255,255,255,0.25);
     padding: 1px 6px;   /* co gọn padding trên mobile */
     border-radius: 1px;
